@@ -10,30 +10,30 @@ package com.pinduoduo.test;
  * @create 2018-08-26 3:04
  **/
 public class GoodInfo {
-    String mallName;
-    String mallLogo;
-    String qrCodeImageUrl;
-    int merchantType;
-    String goodsId;
-    String goodsName;
-    String goodsDesc;
-    String goodsImageUrl;
-    String goodsThumbnailUrl;
-    int soldQuantity;
-    int minGroupPrice;
-    String categoryId;
-    String categoryName;
-    boolean hasCoupon;
-    int couponMinOrderAmount;
-    int couponDiscount;
-    int couponTotalQuantity;
-    int couponRemainQuantity;
-    long couponStartTime;
-    long couponEndTime;
-    int promotionRate;
-    int avgDesc;
-    int avgLgst;
-    int avgServ;
+    private String mallName;
+    private String mallLogo;
+    private String qrCodeImageUrl;
+    private int merchantType;
+    private String goodsId;
+    private String goodsName;
+    private String goodsDesc;
+    private String goodsImageUrl;
+    private String goodsThumbnailUrl;
+    private int soldQuantity;
+    private int minGroupPrice;
+    private String categoryId;
+    private String categoryName;
+    private boolean hasCoupon;
+    private int couponMinOrderAmount;
+    private int couponDiscount;
+    private int couponTotalQuantity;
+    private int couponRemainQuantity;
+    private long couponStartTime;
+    private long couponEndTime;
+    private int promotionRate;
+    private int avgDesc;
+    private int avgLgst;
+    private int avgServ;
 
     public String getMallName() {
         return mallName;

@@ -21,7 +21,7 @@ public class PinDuoDuoCrawler {
         OkHttpClient client = new OkHttpClient();
 
         MediaType mediaType = MediaType.parse("application/json");
-        RequestBody body = RequestBody.create(mediaType, "{\"keyword\": \"\", \"sortType\": 0, \"withCoupon\": 0, \"categoryId\": -1, \"pageNumber\": 1,\"pageSize\": 60}");
+        RequestBody body = RequestBody.create(mediaType, "{\"keyword\": \"\", \"sortType\": 0, \"withCoupon\": 0, \"categoryId\": -1, \"pageNumber\": 1,\"pageSize\": 500}");
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
