@@ -36,8 +36,8 @@ public class PinDuoDuoCrawler {
                     JSONArray goodsList = result.getJSONArray("goodsList");
                     if(null != goodsList && !goodsList.isEmpty()){
                         for(int i=0;i<goodsList.size();i++){
-                            JSONObject good = goodsList.getJSONObject(i);
-                            System.out.println(good.getString("goodsName"));
+                            GoodInfo goodInfo = JSONObject.parseObject(goodsList.getJSONObject(i).toJSONString(),GoodInfo.class);
+                            System.out.println("http://mobile.yangkeduo.com/goods2.html?goods_id="+goodInfo.getGoodsId());
                         }
                     }
                 }
@@ -45,6 +45,5 @@ public class PinDuoDuoCrawler {
         }else{
             System.out.println("数据抓取失败!");
         }
-        System.out.println();
     }
 }
