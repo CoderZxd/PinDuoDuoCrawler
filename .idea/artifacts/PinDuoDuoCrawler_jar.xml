@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PinDuoDuoCrawler:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PinDuoDuoCrawler_jar</output-path>
+    <root id="archive" name="PinDuoDuoCrawler.jar">
+      <element id="module-output" name="PinDuoDuoCrawler" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.9/fastjson-1.2.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

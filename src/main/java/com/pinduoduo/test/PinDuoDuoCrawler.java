@@ -70,7 +70,9 @@ public class PinDuoDuoCrawler {
                 }
                 printWriter.write(sb.toString());
                 printWriter.close();
+                System.out.println("***************************************************");
                 System.out.println("抓取的数据已经写入"+fullPath+"文件中,请查看。");
+                System.out.println("***************************************************");
             }
         }catch (Exception e){
             System.out.println("数据抓取异常!异常信息为:"+e.getMessage());
